@@ -43,7 +43,7 @@ public class TrainWekaLinearRegression {
     System.out.println("10-Fold CV Root Mean Squared Error = " + Double.toString(eval.rootMeanSquaredError()));
 
     // Train model on entire data
-    
+
     // Output model
 //    System.out.println(lr.toString());
   }
