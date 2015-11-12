@@ -16,7 +16,7 @@ import java.util.Random;
 /**
  * Created by judahk on 11/8/2015.
  */
-public class TrainWekaLinearRegression {
+public class TrainWekaLinearRegressionModel {
   public static void main(String[] args) throws Exception {
     // Read csv data file
     String dataFile = args[0];
