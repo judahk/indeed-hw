@@ -1,0 +1,23 @@
+Linear Regression Implementation in Weka (data size = 1000000 samples):
+----------------------------------------------------------------------
+10-Fold CV Correlation Coefficient = 0.8622656213705822
+10-Fold CV Mean Absolute Error = 15.845258871096059
+10-Fold CV Root Mean Squared Error = 19.608933577329314
+
+Linear Regression Implementation in mllib (data size = 1000000 samples, CV based param tuning iters=200, step size=1.0):
+------------------------------------------------------------------------------------------------------------------------
+10-Fold CV Correlation Coefficient = 0.8609872144696915
+10-Fold CV Mean Absolute Error = 15.900451981992921
+10-Fold CV Root Mean Squared Error = 19.698523097890526
+
+Decision tree regression Implementation in mllib (data size = 1000000 samples, CV based param tuning d=12, maxBin=16):
+----------------------------------------------------------------------------------------------------------------------
+10-Fold CV Correlation Coefficient = 0.8415923614049905
+10-Fold CV Mean Absolute Error = 16.64932194830459
+10-Fold CV Root Mean Squared Error = 20.912552729229862
+
+Random Forest regression Implementation in mllib (data size = 50000 samples, CV based param tuning num_trees=20, maxDepth=18):
+----------------------------------------------------------------------------------------------------------------------
+10-Fold CV Correlation Coefficient = 0.849858072289497
+10-Fold CV Mean Absolute Error = 16.242174482204682
+10-Fold CV Root Mean Squared Error = 20.363341569366582
