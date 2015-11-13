@@ -43,9 +43,10 @@ public class TrainWekaLinearRegressionModel {
     System.out.println("10-Fold CV Root Mean Squared Error = " + Double.toString(eval.rootMeanSquaredError()));
 
     // Train model on entire data
+    lr.buildClassifier(data);
 
     // Output model
-//    System.out.println(lr.toString());
+    System.out.println(lr.toString());
   }
 
   public static Instances changeNominalToNumeric(Instances data) throws Exception{
